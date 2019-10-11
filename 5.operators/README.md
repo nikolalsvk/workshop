@@ -24,7 +24,7 @@ https://github.com/helm/charts/tree/master/stable/prometheus-operator
 helm install --name my-prometheus stable/prometheus-operator
 
 # Edit the grafana service to expose it to the world:
-kubect edit svc my-grafan-svc
+kubectl edit svc my-grafan-svc
 
 # Change the type to
 LoadBalancer
