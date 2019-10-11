@@ -1,11 +1,11 @@
 Crash course on Docker and containers
 
-#What is a container?
+# What is a container?
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 
-#How are containers built?
+# How are containers built?
 
 In order to create a new container you need to write a definition consisting of instructions containing the steps that need to be executed. For example - install a package, copy a directory from the local machine inside the container and so on. These definitions are called Dockerfiles. I have added an example Dockerfile in this directory - check it out.
 
