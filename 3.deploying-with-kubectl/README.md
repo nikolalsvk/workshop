@@ -16,7 +16,7 @@ kubectl delete my-pod
 kubectl delete -f my-pod.yaml
 
 # Create a deployment:
-kubeclt create -f nginx.yaml
+kubectl create -f nginx.yaml
 
 # Scale the deployment - open the nginx.yaml and modify the "replicas: 1" line. Save the file and run
 kubectl apply -f nginx.yaml
