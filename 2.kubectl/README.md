@@ -1,5 +1,12 @@
-After you have setup your connectivity to the cluster it is time to test it. Several kubectl commands are very useful:
+# Installing kubectl on your machine
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
+# Clone this repository
+git clone git@github.com:mihail-velikov/workshop.git
+
+# copy the "config" file in ~/.kube/
+
+# After you have setup your connectivity to the cluster it is time to test it. Several kubectl commands are very useful
 # This one shows the available nodes in the cluster
 kubectl get nodes
 
